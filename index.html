@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- canvas -->
+    <div id="window">
+        <!-- health and timer ui area -->
+        <div id="ui">
+            <!-- solid player health bar -->
+            <div class="solid-health">
+                <!-- full player health bar background -->
+                <div class="health"></div>
+                <!-- player health -->
+                <div class="full-health" id="player-health"></div>
+            </div>
+            <!-- game timer -->
+            <div id="timer">10</div>
+            <!-- solid enemy health bar -->
+            <div class="solid-health">
+                <!-- full enemy health bar background -->
+                <div class="health"></div>
+                <!-- enemy health -->
+                <div class="full-health" id="enemy-health"></div>
+            </div>
+        </div>
+        <!-- game result -->
+        <div class="result">
+            Tie
+        </div>
+        <canvas></canvas>
+    </div>
+    
+    <script src="/js/classes.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="index.js"></script>
+</body>
+
+
